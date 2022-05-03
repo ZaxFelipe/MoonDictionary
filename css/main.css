@@ -1,0 +1,77 @@
+/* Estilos principais e Hierarquia */
+@import url(./bootstrap.min.css);
+@import url(./config.css);
+@import url(./global.css);
+@import url(./custom.css);
+@import url(./responsive.css);
+
+/* Assets */
+@import url(/css/searchbar.css);
+
+/* Icone de lua */
+#nav-icon {
+    width: 40px;
+}
+
+/* Botoes do flex nav direito */
+#twitter-nav .btn-primary {
+    margin-right: 30px;
+}
+
+
+
+/* Imagem de fundo do Hero */
+.hero-bg {
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/bg-zeri.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    z-index: auto;
+}
+
+
+/* Apenas para debug */
+.hero-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+    height: 120px;
+    width: 300px;
+}
+
+.app-section {
+    height: 300px;
+    left: 0;
+    right: 0;
+    margin-top: 200px;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(35, 41, 35, 0.836);
+    border-radius: 50px;
+}
+
+/* Preenche a div pai com um height para que o flex fique no centro */
+.app-row {
+    height: 100%
+}
+
+/* Alinha cada objeto das colunas no centro */
+.app-col-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Cria uma altura na camada principal ja que o Backgroud e Menu flex estao flutuando */
+.section-float-fix {
+    height: 800px;
+    position: relative;
+}
+
+/* agora vai */

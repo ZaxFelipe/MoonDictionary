@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/css/main.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playground</title>
+</head>
+
+<body>
+    <!--HEADER-->
+    <div id="navbar">
+        <div class="container">
+            <nav id="minha-nav-bg" class="navbar navbar-expand-xl  navbar-dark">
+                <div class="container-fluid">
+                    <div id="nav-icon"><img class="img-fluid" src="/assets/moon-svgrepo-com.svg" alt=""></div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic"
+                        aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse show" id="navbarBasic">
+                        <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FAQ</a>
+                            </li>
+                        </ul>
+                        <div id="twitter-nav">
+                            <button type="button" class="btn btn-primary">Apps</button>
+                            <button type="button" class="btn btn-primary">Twitter</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!--###HEADER-->
+    <!--HERO-->
+    <section>
+        <div class="container app-section">
+            <div class="row app-row">
+                <div class="col-3 app-col-item">
+                    <select id="language-form" class="form-select form-select-lg" aria-label="Large select">
+                        <option selected="">Pick a Language!</option>
+                        <option value="US">English</option>
+                        <option value="FR">French</option>
+                        <option value="JP">Japanese</option>
+                    </select>
+                </div>
+
+                <!--  -->
+                <div class="col app-col-item"> <input class="c-checkbox" type="checkbox" id="checkbox">
+                    <div class="c-formContainer">
+                        <form class="c-form" action="">
+                            <input class="c-form__input" placeholder="Dog... ねこ。。。西瓜" type="none"
+                                pattern="[A-Za-z0-9._%+-] [A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" required>
+                            <label class="c-form__buttonLabel" for="checkbox">
+                                <button onclick="Traduzir()" class="c-form__button" type="button">Send</button>
+                            </label>
+                            <label class="c-form__toggle" for="checkbox" data-title="Traduzir Agora"></label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg"></div>
+        <div class="section-float-fix"></div>
+    </section>
+    <!-- <div class="box-test"></div> -->
+    <!--####HERO-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+    <script src="/scripts/main.js"></script>
+
+</body>
+
+</html>

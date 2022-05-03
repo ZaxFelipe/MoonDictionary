@@ -1,0 +1,15 @@
+.btn-primary {
+    background-image: linear-gradient(to top right, #396955, #9cdf88);
+    border-color: var(--primary);
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    border: none;
+}
+
+.bg-light {
+    background-color: #4e596f;
+}
+
+.btn-primary:hover {
+    border-color: transparent;
+}

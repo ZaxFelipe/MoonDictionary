@@ -1,0 +1,15 @@
+ 41436A
+984063
+F64668
+FE9677
+
+
+ Primary
+#F54B64
+#F78361
+Secondary
+#242a38
+Dark Grey
+#4e596f
+White
+#FFFFFF
