@@ -1,23 +1,29 @@
+function TraduzirUS(Word, Language) {
+    window.open(`https://dictionary.cambridge.org/dictionary/english/${Word}`)
+}
+
+
+
 function TraduzirJP(Word, Language) {
     window.open(`https://jisho.org/search/${Word}`)
-    // window.open(`https://ejje.weblio.jp/content/${value}`)
+    window.open(`https://jisho.org/search/${Word}`)
 }
 
 
 
 
 function Traduzir() {
-    let Palavra = document.querySelector(".c-form__input").value;
-    let Idioma = document.querySelector("#language-form").value;
-    switch (Idioma) {
+    let Word = document.querySelector(".c-form__input").value;
+    let Language = document.querySelector("#language-form").value;
+    switch (Language) {
         case 'US':
-            document.createEvent(alert("Ainda Não Suportamos Ingles :("))
+            TraduzirUS(Word, Language)
             break;
         case 'FR':
             document.createEvent(alert("Ainda Não Suportamos Frances :("))
             break
         case 'JP':
-            document.createEvent(alert("Ainda Não Suportamos Japones :("))
+            TraduzirJP(Word, Language)
             break
 
         default:
