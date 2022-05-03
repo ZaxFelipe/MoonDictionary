@@ -1,12 +1,24 @@
 function TraduzirUS(Word, Language) {
-    window.open(`https://dictionary.cambridge.org/dictionary/english/${Word}`)
+    var locs = [`https://dictionary.cambridge.org/dictionary/english/${Word}`, `https://youglish.com/pronounce/${Word}/english?`]
+
+    for (let i = 0; i < locs.length; i++) {
+        window.open(locs[i])
+        // console.log(locs[i]);
+    }
 }
 
 
 
 function TraduzirJP(Word, Language) {
-    window.open(`https://jisho.org/search/${Word}`)
-    window.open(`https://jisho.org/search/${Word}`)
+    var locs = [`https://jisho.org/search/${Word}`,
+        `https://youglish.com/pronounce/${Word}/japanese?`,
+        `https://ejje.weblio.jp/content/${Word}`
+    ]
+
+    for (let i = 0; i < locs.length; i++) {
+        window.open(locs[i])
+        // console.log(locs[i]);
+    }
 }
 
 
@@ -30,5 +42,6 @@ function Traduzir() {
             break;
     }
     // TraduzirJP(text);
+
 
 }
