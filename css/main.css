@@ -3,10 +3,10 @@
 @import url(https://zaxfelipe.github.io/MoonDictionary/css/config.css);
 @import url(https://zaxfelipe.github.io/MoonDictionary/css/global.css);
 @import url(https://zaxfelipe.github.io/MoonDictionary/css/custom.css);
-@import url(https://zaxfelipe.github.io/MoonDictionary/css/searchbar.css);
+@import url(https://zaxfelipe.github.io/MoonDictionary/css/responsive.css);
 
 /* Assets */
-@import url(/css/searchbar.css);
+@import url(https://zaxfelipe.github.io/MoonDictionary/css/searchbar.css);
 
 
 
@@ -37,7 +37,7 @@
 .hero-bg {
     width: 100%;
     height: 100%;
-    background-image: url(/assets/bg-zeri.jpg);
+    background-image: url(https://zaxfelipe.github.io/MoonDictionary/assets/bg-zeri.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
