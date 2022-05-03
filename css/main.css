@@ -1,3 +1,16 @@
+/* For Github */
+@import url(https://zaxfelipe.github.io/MoonDictionary/css/bootstrap.min.css);
+@import url(https://zaxfelipe.github.io/MoonDictionary/css/config.css);
+@import url(https://zaxfelipe.github.io/MoonDictionary/css/global.css);
+@import url(https://zaxfelipe.github.io/MoonDictionary/css/custom.css);
+@import url(https://zaxfelipe.github.io/MoonDictionary/css/searchbar.css);
+
+/* Assets */
+@import url(/css/searchbar.css);
+
+
+
+
 /* Estilos principais e Hierarquia */
 @import url(./bootstrap.min.css);
 @import url(./config.css);
